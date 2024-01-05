@@ -1,6 +1,5 @@
 import IconChevronRight from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/chevron-right.tsx";
-import Layout from "../components/Layout.tsx";
-<Layout>
+
 export default function Hero() {
   return (
     <div
@@ -18,13 +17,13 @@ export default function Hero() {
       <div class="flex flex-col md:flex-row items-center">
         <a
           href="#"
-          class="block mt-4 text-blue-600 cursor-pointer items-center group bg-white px-8 py-2 rounded-md hover:bg-blue-50 font-bold"
+          class="block mt-4 text-blue-600 cursor-pointer inline-flex items-center group text-blue-800 bg-white px-8 py-2 rounded-md hover:bg-blue-50 font-bold"
         >
           Sign Up{" "}
         </a>
         <a
           href="#"
-          class="block mt-4 transition-colors text-blue-400 cursor-pointer items-center group px-4 py-2 hover:text-blue-100"
+          class="block mt-4 transition-colors text-blue-400 cursor-pointer inline-flex items-center group px-4 py-2 hover:text-blue-100"
         >
           Documentation{" "}
           <IconChevronRight
@@ -34,6 +33,5 @@ export default function Hero() {
         </a>
       </div>
     </div>
-    </Layout>
   );
 }
