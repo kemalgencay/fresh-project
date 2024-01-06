@@ -60,6 +60,7 @@ export default function Footer() {
 
         <a
           href="https://github.com/kemalgencay/fresh-project"
+          target="blank"
           class="inline-block hover:text-black"
           aria-label="GitHub"
         >
